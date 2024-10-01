@@ -38,6 +38,8 @@ public class Main {
         double gratuityResult  = calcGratuity(subtotalValue, gratuityValue);
 
         System.out.printf("The gratuity is $%.1f and the total is $%.1f.%n", gratuityResult , subtotalResult);
+        
+        input.close();
     }
 
 }
